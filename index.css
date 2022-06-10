@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+h1{
+    font-family: Big Shoulders Display;
+    margin-top: 20px;
+    color: #f2f2f2;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+p{
+    color: #ffffffbf;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.container{
+    font-family: Lexend Deca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+
+img{
+    width: 60px;
+}
+
+.container-1{
+    border-end-start-radius: 10px;
+    border-start-start-radius: 10px;
+    padding: 40px;
+    background-color: #e38826;
+}
+
+.container-2{
+    padding: 40px;
+    background-color: #006970;
+}
+
+.container-3{
+    border-start-end-radius: 10px;
+    border-end-end-radius: 10px;
+    padding: 40px;
+    background-color: #004241;
+}
+
+button{
+    background-color: #f2f2f2;
+    border-radius: 15px;
+    width: 100px;
+    height: 35px;
+    border-color: #f2f2f2;
+    font-family: Lexend Deca;
+}
+
+.firstbutton{
+    color: #e38826;
+}
+
+.firstbutton:hover{
+    cursor: pointer;
+    color: #f2f2f2;
+    background-color: #e38826;
+}
+
+.secondbutton{
+    color: #006970;
+}
+
+.secondbutton:hover{
+    cursor: pointer;
+    color: #f2f2f2;
+    background-color: #006970;
+}
+
+.thirdbutton{
+    color: #004241;
+}
+
+.thirdbutton:hover{
+    cursor: pointer;
+    color: #f2f2f2;
+    background-color: #004241;
+}
+
+footer { 
+    flex: none;
+    font-size: 11px; text-align: center;
+}
+   
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
